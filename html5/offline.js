@@ -1,9 +1,5 @@
 ﻿{
-<<<<<<< HEAD:offline.js
-	"version": 1492510632,
-=======
-	"version": 1492616834,
->>>>>>> refs/remotes/origin/master:html5/offline.js
+	"version": 1492617520,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -15,11 +11,8 @@
 		"images/barcenter-sheet0.png",
 		"images/ball-sheet0.png",
 		"images/barcollide-sheet0.png",
-<<<<<<< HEAD:offline.js
-=======
 		"images/peereffects-sheet0.png",
 		"images/peereffects-sheet1.png",
->>>>>>> refs/remotes/origin/master:html5/offline.js
 		"images/safearea-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",
