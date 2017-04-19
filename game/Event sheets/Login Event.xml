@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Login Event</name>
+    <events>
+        <variable constant="0" name="Username" sid="590774291776705" static="0" type="text"></variable>
+        <event-block sid="945405726977470">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="788265332173057" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Scroll to position" sid="555481904072070" type="System">
+                    <param id="0" name="X">800</param>
+                    <param id="1" name="Y">450</param>
+                </action>
+                <action id="6" name="Set focused" sid="200827459856316" type="UsernameTextbox" />
+                <action id="0" name="Set text" sid="942323518923752" type="UsernameTextbox">
+                    <param id="0" name="Text">&quot;a&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="494558203568979">
+            <conditions>
+                <condition id="1" name="On text changed" sid="222471644064704" type="UsernameTextbox" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block any="1" sid="172143882293346">
+                    <conditions>
+                        <condition id="0" name="Compare text" sid="520230751845652" type="UsernameTextbox">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                            <param id="1" name="Case">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="164875022343777" type="UsernameButton">
+                            <param id="0" name="Mode">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="655753511014610">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="754896099069060" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set enabled" sid="321667681329931" type="UsernameButton">
+                            <param id="0" name="Mode">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block disabled="1" sid="753293424344930">
+            <conditions>
+                <condition id="12" inverted="1" name="Supports multiplayer" sid="438768591696969" type="Multiplayer" />
+            </conditions>
+            <actions>
+                <action id="3" name="Set enabled" sid="676947477054994" type="UsernameButton">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block any="1" sid="798941242272293">
+            <conditions>
+                <condition id="0" name="On clicked" sid="591341857530790" type="UsernameButton" />
+                <condition id="0" name="On key pressed" sid="208653988667099" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="420111175836521">
+                    <conditions>
+                        <condition id="0" inverted="1" name="Compare text" sid="768586023445831" type="UsernameTextbox">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                            <param id="1" name="Case">0</param>
+                        </condition>
+                        <condition id="12" name="Supports multiplayer" sid="524006747421502" type="Multiplayer" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="980965315191444" type="System">
+                            <param id="0" name="Variable">Username</param>
+                            <param id="1" name="Value">UsernameTextbox.Text</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="437489190419166" type="System">
+                            <param id="0" name="Layout">Game Screen</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
