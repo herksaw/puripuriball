@@ -1,0 +1,10 @@
+0: StandRight
+1: StandLeft
+2: WalkRight
+3: WalkLeft
+4: JumpForwardRight
+5: JumpForwardLeft
+6: JumpBackwardRight
+7: JumpBackwardLeft
+8: FallRight
+9: FallLeft
