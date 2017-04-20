@@ -582,6 +582,10 @@
                                     <param id="2" name="X">Peer.X</param>
                                     <param id="3" name="Y">Peer.Y</param>
                                 </action>
+                                <action id="4" name="Set animation" sid="927268359721475" type="PeerEffects">
+                                    <param id="0" name="Animation">Multiplayer.Message</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block sid="710639210501894">
@@ -601,6 +605,10 @@
                                     <param id="1" name="Layer">&quot;game&quot;</param>
                                     <param id="2" name="X">Peer.X</param>
                                     <param id="3" name="Y">Peer.Y</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="956284378209714" type="PeerEffects">
+                                    <param id="0" name="Animation">Multiplayer.Message</param>
+                                    <param id="1" name="From">1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1239,19 +1247,54 @@
                                             <param id="2" name="Second value">1</param>
                                         </condition>
                                     </conditions>
-                                    <actions>
-                                        <action id="-3" name="Create object" sid="957876415040631" type="System">
-                                            <param id="0" name="Object to create">PeerEffects</param>
-                                            <param id="1" name="Layer">&quot;game&quot;</param>
-                                            <param id="2" name="X">Peer.X</param>
-                                            <param id="3" name="Y">Peer.Y</param>
-                                        </action>
-                                        <action id="0" name="Call function" sid="552553690334141" type="Function">
-                                            <param id="0" name="Name">&quot;SendAnims&quot;</param>
-                                            <param id="1" name="Parameter {n}">Peer.peerId &amp; &quot;PeerEffects&quot;{###}&quot;JumpTop&quot;</param>
-                                        </action>
-                                    </actions>
+                                    <actions />
                                     <sub-events>
+                                        <event-block sid="217589678360441">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="457883087710497" type="System">
+                                                    <param id="0" name="First value">Peer.Platform.VectorY</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="957876415040631" type="System">
+                                                    <param id="0" name="Object to create">PeerEffects</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="X">Peer.X</param>
+                                                    <param id="3" name="Y">Peer.Y</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="914385196672706" type="PeerEffects">
+                                                    <param id="0" name="Animation">&quot;JumpGround&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="0" name="Call function" sid="552553690334141" type="Function">
+                                                    <param id="0" name="Name">&quot;SendAnims&quot;</param>
+                                                    <param id="1" name="Parameter {n}">Peer.peerId &amp; &quot;PeerEffects&quot;{###}&quot;JumpGround&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="404607793761992">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="709013826641334" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="672060201403336" type="System">
+                                                    <param id="0" name="Object to create">PeerEffects</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="X">Peer.X</param>
+                                                    <param id="3" name="Y">Peer.Y</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="173793607871967" type="PeerEffects">
+                                                    <param id="0" name="Animation">&quot;JumpAir&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="0" name="Call function" sid="136482893112759" type="Function">
+                                                    <param id="0" name="Name">&quot;SendAnims&quot;</param>
+                                                    <param id="1" name="Parameter {n}">Peer.peerId &amp; &quot;PeerEffects&quot;{###}&quot;JumpAir&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                         <event-block sid="311778355662319">
                                             <conditions>
                                                 <condition id="-8" name="Compare two values" sid="280662375133564" type="System">
@@ -1893,19 +1936,54 @@
                                             <param id="2" name="Second value">1</param>
                                         </condition>
                                     </conditions>
-                                    <actions>
-                                        <action id="-3" name="Create object" sid="703654888859788" type="System">
-                                            <param id="0" name="Object to create">PeerEffects</param>
-                                            <param id="1" name="Layer">&quot;game&quot;</param>
-                                            <param id="2" name="X">Peer.X</param>
-                                            <param id="3" name="Y">Peer.Y</param>
-                                        </action>
-                                        <action id="0" name="Call function" sid="622567025332393" type="Function">
-                                            <param id="0" name="Name">&quot;SendAnims&quot;</param>
-                                            <param id="1" name="Parameter {n}">Peer.peerId &amp; &quot;PeerEffects&quot;{###}&quot;JumpTop&quot;</param>
-                                        </action>
-                                    </actions>
+                                    <actions />
                                     <sub-events>
+                                        <event-block sid="470680535667493">
+                                            <conditions>
+                                                <condition id="-8" name="Compare two values" sid="652144228974568" type="System">
+                                                    <param id="0" name="First value">Peer.Platform.VectorY</param>
+                                                    <param id="1" name="Comparison">0</param>
+                                                    <param id="2" name="Second value">0</param>
+                                                </condition>
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="550846047914087" type="System">
+                                                    <param id="0" name="Object to create">PeerEffects</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="X">Peer.X</param>
+                                                    <param id="3" name="Y">Peer.Y</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="482346087626461" type="PeerEffects">
+                                                    <param id="0" name="Animation">&quot;JumpGround&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="0" name="Call function" sid="603987890998724" type="Function">
+                                                    <param id="0" name="Name">&quot;SendAnims&quot;</param>
+                                                    <param id="1" name="Parameter {n}">Peer.peerId &amp; &quot;PeerEffects&quot;{###}&quot;JumpGround&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
+                                        <event-block sid="258647737065837">
+                                            <conditions>
+                                                <condition id="-22" name="Else" sid="164716351462322" type="System" />
+                                            </conditions>
+                                            <actions>
+                                                <action id="-3" name="Create object" sid="475053154914747" type="System">
+                                                    <param id="0" name="Object to create">PeerEffects</param>
+                                                    <param id="1" name="Layer">&quot;game&quot;</param>
+                                                    <param id="2" name="X">Peer.X</param>
+                                                    <param id="3" name="Y">Peer.Y</param>
+                                                </action>
+                                                <action id="4" name="Set animation" sid="538718764336953" type="PeerEffects">
+                                                    <param id="0" name="Animation">&quot;JumpAir&quot;</param>
+                                                    <param id="1" name="From">1</param>
+                                                </action>
+                                                <action id="0" name="Call function" sid="717133514898971" type="Function">
+                                                    <param id="0" name="Name">&quot;SendAnims&quot;</param>
+                                                    <param id="1" name="Parameter {n}">Peer.peerId &amp; &quot;PeerEffects&quot;{###}&quot;JumpAir&quot;</param>
+                                                </action>
+                                            </actions>
+                                        </event-block>
                                         <event-block sid="324577193342945">
                                             <conditions>
                                                 <condition id="-8" name="Compare two values" sid="246161095110325" type="System">
@@ -2303,6 +2381,18 @@
                                 </action>
                             </actions>
                         </event-block>
+                        <event-block sid="325624304038320">
+                            <conditions>
+                                <condition id="0" name="On collision with another object" sid="511594630016871" type="Ball">
+                                    <param id="0" name="Object">BarCenter</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action behavior="Bullet" id="4" name="Bounce off object" sid="417391201817746" type="Ball">
+                                    <param id="0" name="Object">BarCenter</param>
+                                </action>
+                            </actions>
+                        </event-block>
                         <event-block sid="782972267473746">
                             <conditions>
                                 <condition id="1" name="Is overlapping another object" sid="213161684722635" type="Ball">
@@ -2471,22 +2561,32 @@
                                     </sub-events>
                                 </event-block>
                                 <comment>Fix stuck over wall glitch</comment>
-                                <event-block sid="516449967999885">
+                                <event-block disabled="1" sid="516449967999885">
                                     <conditions>
-                                        <condition id="-8" name="Compare two values" sid="672742043572387" type="System">
-                                            <param id="0" name="First value">Peer.Platform.VectorY</param>
+                                        <condition id="-7" name="Compare instance variable" sid="535694083507187" type="Peer">
+                                            <param id="0" name="Instance variable">peerId</param>
                                             <param id="1" name="Comparison">0</param>
-                                            <param id="2" name="Second value">0</param>
+                                            <param id="2" name="Value">Multiplayer.MyID</param>
+                                        </condition>
+                                        <condition id="-8" name="Compare two values" sid="985959297920969" type="System">
+                                            <param id="0" name="First value">getbit(Peer.inputs, 2)</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">1</param>
                                         </condition>
                                         <condition id="-2" name="Compare Y" sid="850297789688713" type="Peer">
                                             <param id="0" name="Comparison">3</param>
                                             <param id="1" name="Y co-ordinate">600</param>
                                         </condition>
+                                        <condition id="-8" name="Compare two values" sid="353663418384876" type="System">
+                                            <param id="0" name="First value">floor(Peer.Y)</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">529</param>
+                                        </condition>
                                     </conditions>
                                     <actions>
                                         <action id="0" name="Call function" sid="726236907948646" type="Function">
                                             <param id="0" name="Name">&quot;AddLog&quot;</param>
-                                            <param id="1" name="Parameter {n}">&quot;glitching&quot;</param>
+                                            <param id="1" name="Parameter {n}">&quot;glitching &quot; &amp; dt</param>
                                         </action>
                                     </actions>
                                 </event-block>
@@ -2699,7 +2799,7 @@
                                 </event-block>
                             </sub-events>
                         </event-block>
-                        <event-block any="1" sid="352973263507877">
+                        <event-block any="1" disabled="1" sid="352973263507877">
                             <conditions>
                                 <condition id="9" name="Is overlapping at offset" sid="251131049019095" type="Peer">
                                     <param id="0" name="Object">BarCollide</param>
@@ -2714,7 +2814,7 @@
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="468131236622962">
+                                <event-block disabled="1" sid="468131236622962">
                                     <conditions>
                                         <condition id="-1" name="Compare X" sid="740122657225017" type="Peer">
                                             <param id="0" name="Comparison">3</param>
@@ -2727,7 +2827,7 @@
                                         </action>
                                     </actions>
                                 </event-block>
-                                <event-block sid="850294635733451">
+                                <event-block disabled="1" sid="850294635733451">
                                     <conditions>
                                         <condition id="-22" name="Else" sid="708448013083472" type="System" />
                                     </conditions>
@@ -2978,9 +3078,7 @@
                         </event-block>
                         <event-block sid="384797369686531">
                             <conditions>
-                                <condition id="4" name="On finished" sid="777770079539435" type="PeerEffects">
-                                    <param id="0" name="Animation">&quot;JumpTop&quot;</param>
-                                </condition>
+                                <condition id="5" name="On any finished" sid="777770079539435" type="PeerEffects" />
                             </conditions>
                             <actions>
                                 <action behavior="Fade" id="1" name="Start fade" sid="546840700391038" type="PeerEffects" />

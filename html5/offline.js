@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1492617520,
+	"version": 1492663757,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -13,6 +13,7 @@
 		"images/barcollide-sheet0.png",
 		"images/peereffects-sheet0.png",
 		"images/peereffects-sheet1.png",
+		"images/peereffects-sheet2.png",
 		"images/safearea-sheet0.png",
 		"icon-16.png",
 		"icon-32.png",

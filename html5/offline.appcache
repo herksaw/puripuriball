@@ -1,5 +1,5 @@
 ﻿CACHE MANIFEST
-#1492617520
+#1492663757
 data.js
 c2runtime.js
 jquery-2.1.1.min.js
@@ -12,6 +12,7 @@ images/ball-sheet0.png
 images/barcollide-sheet0.png
 images/peereffects-sheet0.png
 images/peereffects-sheet1.png
+images/peereffects-sheet2.png
 images/safearea-sheet0.png
 icon-16.png
 icon-32.png

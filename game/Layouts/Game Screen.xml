@@ -273,7 +273,7 @@
                                 <speed>600</speed>
                                 <acceleration>0</acceleration>
                                 <gravity>1000</gravity>
-                                <bounce-off-solids>Yes</bounce-off-solids>
+                                <bounce-off-solids>No</bounce-off-solids>
                                 <set-angle>No</set-angle>
                                 <initial-state>Disabled</initial-state>
                             </properties>
@@ -396,7 +396,7 @@
                 <instance type="PeerEffects" uid="19">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>JumpTop</initial-animation>
+                        <initial-animation>JumpGround</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Disabled</collisions>
                     </properties>
@@ -452,14 +452,21 @@
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <behavior-instances>
+                        <behavior-instance type="Solid">
+                            <properties>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                    </behavior-instances>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>800</x>
-                        <y>300</y>
+                        <y>295.454406738</y>
                         <z>0</z>
                         <width>32</width>
-                        <height>660</height>
+                        <height>650.908813477</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>

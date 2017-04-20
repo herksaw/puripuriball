@@ -88,188 +88,188 @@
                     <animation framecount="1" loop="0" name="StandRight" pingpong="0" repeatcount="1" repeatto="0" sid="736256288317310" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_stand.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="StandLeft" pingpong="0" repeatcount="1" repeatto="0" sid="831186574619341" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="2" loop="1" name="WalkRight" pingpong="0" repeatcount="0" repeatto="0" sid="991217420923542" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_walk_1.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_walk_2.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="2" loop="1" name="WalkLeft" pingpong="0" repeatcount="0" repeatto="0" sid="782299770618120" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="JumpForwardRight" pingpong="0" repeatcount="1" repeatto="0" sid="458721537832734" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_jump_2.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="JumpForwardLeft" pingpong="0" repeatcount="1" repeatto="0" sid="751418200619086" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="JumpBackwardRight" pingpong="0" repeatcount="1" repeatto="0" sid="447889430326563" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_jump_1.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="JumpBackwardLeft" pingpong="0" repeatcount="1" repeatto="0" sid="270556696448737" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="FallRight" pingpong="0" repeatcount="1" repeatto="0" sid="576802544041967" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_fall.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="1" loop="0" name="FallLeft" pingpong="0" repeatcount="1" repeatto="0" sid="908995650714734" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="2" loop="0" name="HitGroundRight" pingpong="0" repeatcount="1" repeatto="0" sid="584233000641773" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_hit_ground_1.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_hit_ground_2.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="2" loop="0" name="HitGroundLeft" pingpong="0" repeatcount="1" repeatto="0" sid="815149721103339" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="2" loop="0" name="HitJumpRight" pingpong="0" repeatcount="1" repeatto="0" sid="141914806994332" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_hit_jump_1.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\chara_hit_jump_2.png">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
                     <animation framecount="2" loop="0" name="HitJumpLeft" pingpong="0" repeatcount="1" repeatto="0" sid="127420313683865" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5">
                             <collision-poly>
-                                <point x="0.0859375" y="0.15625" />
-                                <point x="0.9375" y="0.15625" />
-                                <point x="0.945313" y="1" />
-                                <point x="0.078125" y="1" />
+                                <point x="0" y="0.1375" />
+                                <point x="0.992188" y="0.1375" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -323,6 +323,11 @@
             </object-type>
             <object-type name="BarCollide" sid="924782751268590">
                 <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="848861657311572">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
                 <animation-folder>
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520938053867970" speed="5">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\bar_center.png" />
@@ -337,7 +342,7 @@
                     </behavior-type>
                 </behaviors>
                 <animation-folder>
-                    <animation framecount="7" loop="0" name="JumpTop" pingpong="0" repeatcount="1" repeatto="0" sid="735127919751895" speed="10">
+                    <animation framecount="7" loop="0" name="JumpGround" pingpong="0" repeatcount="1" repeatto="0" sid="735127919751895" speed="8">
                         <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\jump_top_0.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\jump_top_1.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\jump_top_2.png" />
@@ -345,6 +350,15 @@
                         <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\jump_top_4.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\jump_top_5.png" />
                         <frame duration="1" hotspotX="0.5" hotspotY="0.6875" original-source="C:\Users\User\Documents\Construct 2\Puripuri Ball\art\jump_top_6.png" />
+                    </animation>
+                    <animation framecount="7" loop="0" name="JumpAir" pingpong="0" repeatcount="1" repeatto="0" sid="129307115910601" speed="8">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_0.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_1.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_2.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_3.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_4.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_5.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.625" original-source="C:\Users\User\Documents\GitHub\puripuriball\art\jump_air_6.png" />
                     </animation>
                 </animation-folder>
             </object-type>
